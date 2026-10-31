@@ -1,0 +1,10 @@
+module.exports = {
+  semi: false,
+  singleQuote: true
+}
+targets:
+  default:
+    build: npm run build
+node_modules/
+dist/
+*.log
